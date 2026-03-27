@@ -75,7 +75,7 @@
 
             try {
                 // AQUÍ SE CONECTA CON TU WORKER DE CLOUDFLARE
-                const response = await fetch('https://barberia-api-nexowel.nexowel.workers.dev', {
+                const response = await fetch('https://cli-barberia-01-api.nexowel.workers.dev/', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify(data)
